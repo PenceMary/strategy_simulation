@@ -2,17 +2,29 @@
   "name": "Strategies",
   "version": "1.0.0",
   "init_date": "2024-01-01",
-  "stockNum": 100,
-  "strategy1": {
+  "stockNum": 1000,
+  "strategy05201510": {
     "ma_short": 5,
     "ma_long": 20,
-    "up_ratio": 0.11,
+    "up_ratio": 0.15,
+    "down_ratio": 0.10
+  },
+  "strategy05200904": {
+    "ma_short": 5,
+    "ma_long": 20,
+    "up_ratio": 0.09,
     "down_ratio": 0.04
   },
-  "strategy2": {
+    "strategy10301510": {
+    "ma_short": 10,
+    "ma_long": 30,
+    "up_ratio": 0.15,
+    "down_ratio": 0.10
+  },
+    "strategy10300904": {
     "ma_short": 10,
     "ma_long": 30,
     "up_ratio": 0.09,
-    "down_ratio": 0.06
+    "down_ratio": 0.04
   }
 }
