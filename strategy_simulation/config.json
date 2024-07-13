@@ -25,7 +25,7 @@
     "ma_short": 10,
     "ma_long": 30,
     "up_ratio": 0.09,
-    "down_ratio": 0.04
+    "down_ratio": 0.05
   },
     "strategy10300303": {
     "ma_short": 10,
