@@ -11,7 +11,7 @@ def execute_strategy(strategy, all_stock_data, results):
     if ma_short < 1 or ma_long < 1 or up_ratio <= 0 or down_ratio <= 0:
         raise ValueError("All input values must be positive and up/down ratios must be greater than 0.")
 
-    # 如果ma_short大于ma_long，交换它们的值
+    # 如果 ma_short 大于 ma_long，交换它们的值
     if ma_short > ma_long:
         ma_short, ma_long = ma_long, ma_short
 
