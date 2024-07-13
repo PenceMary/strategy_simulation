@@ -2,6 +2,7 @@
 
 import akshare as ak
 import time
+import pandas as pd
 
 def get_stock_info_with_retry(retries=5, delay=5):
     for attempt in range(retries):
